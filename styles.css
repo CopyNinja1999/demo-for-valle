@@ -21,4 +21,24 @@
     background-color: #f1f1f1;
   }
   
+  .play-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
   
+  .play-btn i {
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 8px solid #fff;
+    margin: 0 2px;
+  }
+  
+  .play-btn.playing i {
+    border-left: none;
+    border-right: 8px solid #fff;
+  }
+    
